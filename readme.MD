@@ -4,7 +4,7 @@ https://adventofcode.com/2020
 
 ## Run it your self
 
-if you want to test the code, clone the repo then
+If you want to test the code, run the following commands
 
 ```
 git clone https://github.com/MelvinVermeer/advent-of-code-2020.git
