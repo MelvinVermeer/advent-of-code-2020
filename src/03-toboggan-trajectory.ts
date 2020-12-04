@@ -1,8 +1,8 @@
 // https://adventofcode.com/2020/day/3
 
-const product = (a, b) => a * b;
+const product = (a: number, b: number) => a * b;
 
-const countTrees = (map, slope) => {
+export const countTrees = (map: string[], slope: number[]) => {
   const [moveX, moveY] = slope;
   let horizontalPosition = 0;
   let treeCount = 0;
@@ -20,10 +20,5 @@ const countTrees = (map, slope) => {
   return treeCount;
 };
 
-const checkSlopes = (map, slopes) =>
+export const checkSlopes = (map: string[], slopes: number[][]) =>
   slopes.map((slope) => countTrees(map, slope)).reduce(product);
-
-module.exports = {
-  countTrees,
-  checkSlopes,
-};

@@ -1,8 +1,8 @@
-const {
+import {
   countValidPasswords,
   countValidPasswords2,
-} = require("../src/02-password-philosophy");
-const data = require("../data/02");
+} from "../src/02-password-philosophy";
+import { data } from "../data/02";
 
 describe("02 - Password Philosophy", () => {
   const dataSample = ["1-3 a: abcde", "1-3 b: cdefg", "2-9 c: ccccccccc"];

@@ -1,8 +1,8 @@
-const {
+import {
   fixExpenseReportThreeEntries,
   fixExpenseReportTwoEntries,
-} = require("../src/01-report-repair");
-const data = require("../data/01");
+} from "../src/01-report-repair";
+import { data } from "../data/01";
 
 describe("01 - Report Repair", () => {
   describe("fix two entries", () => {

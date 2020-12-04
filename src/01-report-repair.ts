@@ -1,6 +1,6 @@
 // https://adventofcode.com/2020/day/1
 
-const fixExpenseReportTwoEntries = (array) => {
+export const fixExpenseReportTwoEntries = (array: number[]): number => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
       const numA = array[i];
@@ -11,9 +11,10 @@ const fixExpenseReportTwoEntries = (array) => {
       }
     }
   }
+  return 0;
 };
 
-const fixExpenseReportThreeEntries = (array) => {
+export const fixExpenseReportThreeEntries = (array: number[]): number => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
       for (let k = 0; k < array.length; k++) {
@@ -27,9 +28,5 @@ const fixExpenseReportThreeEntries = (array) => {
       }
     }
   }
-};
-
-module.exports = {
-  fixExpenseReportTwoEntries,
-  fixExpenseReportThreeEntries,
+  return 0;
 };

@@ -1,5 +1,5 @@
-const { countTrees, checkSlopes } = require("../src/03-toboggan-trajectory");
-const data = require("../data/03");
+import { countTrees, checkSlopes } from "../src/03-toboggan-trajectory";
+import { data } from "../data/03";
 
 const dataSample = [
   "..##.......",

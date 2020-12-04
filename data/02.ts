@@ -1,4 +1,4 @@
-module.exports = [
+export const data = [
   "6-7 z: dqzzzjbzz",
   "13-16 j: jjjvjmjjkjjjjjjj",
   "5-6 m: mmbmmlvmbmmgmmf",

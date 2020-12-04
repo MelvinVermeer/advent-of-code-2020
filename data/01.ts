@@ -1,4 +1,4 @@
-module.exports = [
+export const data = [
   1544,
   1560,
   1947,
